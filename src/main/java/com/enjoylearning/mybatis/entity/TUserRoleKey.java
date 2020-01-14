@@ -1,6 +1,7 @@
 package com.enjoylearning.mybatis.entity;
 
 public class TUserRoleKey {
+
     private Integer roleId;
 
     private Integer userId;

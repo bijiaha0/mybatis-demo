@@ -5,7 +5,6 @@ import com.enjoylearning.mybatis.factory.real.CangSmallMovieFactory;
 import com.enjoylearning.mybatis.factory.simple.SimpleSmallMovieFactory;
 
 public class James {
-	
 	public static void main(String[] args) {
 		//简单工厂使用
 //		SimpleSmallMovieFactory factory = new SimpleSmallMovieFactory();
@@ -16,7 +15,5 @@ public class James {
 		CangSmallMovieFactory factory = new CangSmallMovieFactory();
 		SmallMovie movie = factory.createMovie();
 		movie.watch();
-		
 	}
-
 }

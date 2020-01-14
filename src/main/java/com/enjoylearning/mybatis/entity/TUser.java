@@ -27,7 +27,6 @@ public class TUser implements Serializable{
     
     private List<HealthReport> healthReports;
 
-    
     private List<TRole> roles;
 /*    
 	public TUser(Integer id, String userName) {
@@ -36,10 +35,7 @@ public class TUser implements Serializable{
 		this.userName = userName;
 	}
 	*/
-    
 
-    
-  
 	@Override
 	public String toString() {
 		String positionId=  (position == null ? "" : String.valueOf(position.getId()));
@@ -140,7 +136,4 @@ public class TUser implements Serializable{
 		System.out.println(1<<2);
 	}
 
-	
-	
-    
 }

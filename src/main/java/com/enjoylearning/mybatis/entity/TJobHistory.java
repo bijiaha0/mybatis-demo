@@ -1,6 +1,7 @@
 package com.enjoylearning.mybatis.entity;
 
 public class TJobHistory {
+
     private Integer id;
 
     private Integer userId;

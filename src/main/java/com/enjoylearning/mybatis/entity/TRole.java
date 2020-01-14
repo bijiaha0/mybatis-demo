@@ -42,6 +42,5 @@ public class TRole {
 	public void setUsers(List<TUser> users) {
 		this.users = users;
 	}
-    
-    
+
 }

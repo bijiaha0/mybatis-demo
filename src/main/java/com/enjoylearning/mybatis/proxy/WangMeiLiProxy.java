@@ -7,8 +7,6 @@ import java.lang.reflect.Proxy;
 public class WangMeiLiProxy implements InvocationHandler {
 	
 	private Girl gilr;
-	
-	
 
 	public WangMeiLiProxy(Girl gilr) {
 		super();
