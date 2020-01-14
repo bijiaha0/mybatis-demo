@@ -14,7 +14,7 @@ public class Lison {
 		//华丽分割线
 		System.out.println("-----------------------------------");
 		//通过她的妈妈这个代理才能与王美丽看电影
-//		mother.watchMovie();
+		//mother.watchMovie();
 	}
 
 }

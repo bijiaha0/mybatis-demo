@@ -56,9 +56,4 @@ public class ThresholdInterceptor implements Interceptor {
 		this.threshold = Long.valueOf(properties.getProperty("threshold"));
 	}
 
-
-
-	
-	
-
 }
